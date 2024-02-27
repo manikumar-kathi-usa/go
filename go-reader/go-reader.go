@@ -14,7 +14,7 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		buff := make([]byte, 100)
+		buff := make([]byte, 100) // need to adjust buffer lenght
 
 		n, err := resp.Body.Read(buff)
 		if n > 0 {

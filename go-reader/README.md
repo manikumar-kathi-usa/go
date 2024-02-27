@@ -1,0 +1,1 @@
+![The life cycle of an I/O request](image.png)
